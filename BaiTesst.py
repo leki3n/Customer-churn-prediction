@@ -7,8 +7,8 @@ from sklearn.metrics import accuracy_score, auc, confusion_matrix, roc_auc_score
 
 ### I Data Cleaning
 # Reading dataset
-train_data = pd.read_csv('data/churn-bigml-80.csv')
-test_data = pd.read_csv('data/churn-bigml-20.csv')
+train_data = pd.read_csv('churn-bigml-80.csv')
+test_data = pd.read_csv('churn-bigml-20.csv')
 
 # Check for missing values
 missing_values = train_data.isnull().sum()
